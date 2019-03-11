@@ -65,7 +65,7 @@ class Solution {
             }
         }
         return Math.max(withOnePre1, withoutOnePre1);
-    }*
+    }
 
     public int rob(int[] nums) {
         return rob1(nums);
