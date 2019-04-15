@@ -1,2 +1,2 @@
 # LeetCode
-Use Java to practice, two problems per day.
+Use Java to practice.
