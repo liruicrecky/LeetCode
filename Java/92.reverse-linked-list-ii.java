@@ -57,13 +57,8 @@ class Solution {
             cur = t;
         }
 
+        mHead.next.next = nEnd;
         mHead.next = pre;
-        ListNode it = pre;
-        while (it.next != null) {
-            it = it.next;
-        }
-        it.next = nEnd;
-
         return fakeHead.next;
     }
 }
