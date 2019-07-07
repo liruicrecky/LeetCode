@@ -63,7 +63,7 @@ class LRUCache {
         }
     }
 
-    int capacity, count;
+    int capacity;
     Node head, tail;
     Map<Integer, Node> m;
 
@@ -79,7 +79,6 @@ class LRUCache {
        head.prev = null;
        tail.prev = head;
        tail.next = null;
-       count = 0;
     }
     
     public int get(int key) {
