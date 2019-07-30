@@ -10,7 +10,7 @@ public class Main {
         // BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
         while (bf.ready()) {
-            long n = Integer.valueOf(bf.readLine());
+            long n = Integer.parseInt(bf.readLine());
             StringBuilder sb = new StringBuilder();
             while (n > 0) {
                 if ((n & 1) == 0) {
