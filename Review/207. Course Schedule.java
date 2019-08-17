@@ -32,6 +32,7 @@ class Solution {
                 }
             }
         }
+        
         return count == numCourses;
     }
 
@@ -53,6 +54,7 @@ class Solution {
                 return false;
             }
         }
+
         return true;
     }
 
