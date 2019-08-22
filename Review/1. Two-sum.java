@@ -8,7 +8,6 @@ class Solution {
                 m.put(nums[i], i);
             }
         }
-        
         return null;
     }
 }
